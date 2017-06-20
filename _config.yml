@@ -71,4 +71,4 @@ deploy:
   type: git
   repo: https://github.com/CXHtml/CXHtml.github.io.git
   branch: master
-  message: simple personal blog
+  message: update favicon
