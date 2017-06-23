@@ -814,10 +814,10 @@
 
     $(function() {
       var Counter = AV.Object.extend("Counter");
-      if ($('.leancloud_visitors').length == 1) {
-        addCount(Counter);
-      } else if ($('.post-title-link').length > 1) {
+      if ($('.page-home').length > 0 || $('.post-title-link').length > 1) {
         showTime(Counter);
+      } else if ($('.leancloud_visitors').length == 1) {
+        addCount(Counter);
       }
     });
   </script>
